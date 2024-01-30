@@ -5,8 +5,8 @@ using namespace std;
 void code4_on9()
 {
     #ifndef ONLINE_JUDGE
-    freopen("input.txt","r",stdin); // for getting input file
-    freopen("output.txt","w",stdout); // for getting output file
+    freopen("0_input.txt","r",stdin); // for getting input file
+    freopen("0_output.txt","w",stdout); // for getting output file
     #endif 
 } 
 
@@ -69,6 +69,7 @@ signed main()
     root->right->left = new node(5);
     root->right->right = new node(7);
 
+    cout<<"Level Order: ";
     for(int i=0;i<=height(root);i++)
     {
         PrintCurrentLevel(root,i);
