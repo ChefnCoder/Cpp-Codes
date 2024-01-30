@@ -1,0 +1,14 @@
+Tree has root , children nodes and last node and lead nodes.
+Binary is someone who has just two childs each.
+
+Tyes of Binary Tree ->
+1.Full binary tree -> either has 0 or 2 children
+
+2.Complete BT -> all levels are completely filled except last level and last level has all nodes as left as possible
+
+3.perfect binary tree ->all leaf nodes are at same level
+
+4.Balanced binary tree -> height of tree at max log(n)
+
+5.Degenerate Tree -> each node has single children
+
